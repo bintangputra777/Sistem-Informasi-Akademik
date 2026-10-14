@@ -1,0 +1,18 @@
+# Konfigurasi rahasia
+.env
+.env.*
+!.env.example
+
+# Dependency Composer
+/vendor/
+
+# Backup dan file sementara
+/storage/backups/
+/storage/tmp/
+
+# Log
+*.log
+
+# File editor
+.vscode/
+.idea/
